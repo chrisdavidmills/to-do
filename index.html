@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=380">
+	<title>To do list</title>
+	<!-- Icon by Sabine Wollender: http://thenounproject.com/wosamo/ -->
+	<link rel="icon" type="image/png" href="img/icon-128.png">
+    <link href='http://fonts.googleapis.com/css?family=Donegal+One|Lily+Script+One' rel='stylesheet' type='text/css'>  
+	<link href="style/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<h1>To do list</h1>
+
+<div class="task-box">
+
+<ul id="task-list">
+
+</div>
+
+</ul>
+
+<div class="form-box">
+<h2>Add new to do.</h2>
+
+<form id="task-form" action="index.html">
+  <div><label for="title">Task title:</label><input type="text" id="title" required></div>
+  <div><label for="deadline">Deadline:</label><input type="text" id="deadline" required></div>
+  <div><input type="submit" id="submit" value="Add Task"></div>
+  <div></div>
+</form>
+</div>
+
+<div id="toolbar">
+  <ul id="notifications">
+
+  </ul>
+
+  <button id="install">
+    Install on FirefoxOS
+  </button>
+</div>
+
+</body>
+
+<script src="scripts/install.js"></script>
+<script src="scripts/todo.js"></script>
+
+</html>
